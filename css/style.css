@@ -87,7 +87,7 @@ img {
     align-items: center;
     column-gap: 50px;
     padding-left: 95px;
-    padding-right: 318px;
+    padding-right: 310px;
 
 }
 
@@ -142,16 +142,23 @@ img {
     color: var(--brand-color);
 }
 
+.icon-contakt:hover + .mail:hover {
+    fill: var(--brand-color);
+}
+
+
 .icon-contakt {
     width: 16px;
     height: 12px;
     fill: rgba(117, 117, 117, 1);
+    margin-right: 10px;
     
 }
 .icon-tel {
     width: 10px;
     height: 16px;
     fill: rgba(117, 117, 117, 1);
+    margin-right: 10px;
     
 }
 
@@ -362,6 +369,11 @@ img {
     flex-basis: calc((100% - 150px) / 6) ;
     border: 1px solid rgba(175, 177, 184, 1);
 }
+.list-clients-cart:hover, .list-clients-cart:focus {
+    border-color: var(--brand-color);
+
+}
+
 .list-clients-icon {
     display: flex;
     justify-content: center;
