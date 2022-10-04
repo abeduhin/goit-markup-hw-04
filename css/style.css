@@ -144,6 +144,7 @@ img {
 
 
 .icon-contakt {
+    display: flex;
     width: 16px;
     height: 12px;
     fill: rgba(117, 117, 117, 1);
@@ -151,6 +152,7 @@ img {
     
 }
 .icon-tel {
+    display: flex;
     width: 10px;
     height: 16px;
     fill: rgba(117, 117, 117, 1);
@@ -163,6 +165,7 @@ img {
     fill: var(--brand-color);
 }
 .mail, .tel {
+    display: flex;
     text-decoration: none; 
     color: var(--text-color) ;
 }
@@ -349,6 +352,10 @@ img {
 .comand-icon:hover, .comand-icon:focus {
     fill: rgba(255, 255, 255, 1);
 }
+.list-comand-icon:hover .comand-icon {
+    fill: var(--decor-color);    
+}
+
 
 .position {
     font-weight: 400;
@@ -390,8 +397,8 @@ img {
 .clients-icon:hover, .clients-icon:focus {
     fill: var(--brand-color);
 }
-.list-comand-icon:hover .comand-icon {
-    fill: var(--decor-color);    
+.list-clients-icon:hover .clients-icon {
+    fill: var(--brand-color);    
 }
 
 .footer-container {
