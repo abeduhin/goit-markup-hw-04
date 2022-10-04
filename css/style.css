@@ -91,10 +91,6 @@ img {
 
 }
 
-.menu {
-
-}
-
 .logo, .logo-footer {
     font-family:'Raleway';
     font-size: 26px;
@@ -163,12 +159,16 @@ img {
 }
 
 .icon-contakt:hover, .icon-contakt:focus,
-.icon-tel:hover, .icon-tel:focus  {
+.icon-tel:hover, .icon-tel:focus {
     fill: var(--brand-color);
 }
 .mail, .tel {
     text-decoration: none; 
     color: var(--text-color) ;
+}
+
+.mail:hover .icon-contakt, .tel:hover .icon-tel {
+    fill: var(--brand-color);
 }
 
 .contakt {
@@ -389,6 +389,9 @@ img {
 
 .clients-icon:hover, .clients-icon:focus {
     fill: var(--brand-color);
+}
+.list-comand-icon:hover .comand-icon {
+    fill: var(--decor-color);    
 }
 
 .footer-container {
